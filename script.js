@@ -28,7 +28,7 @@ blogApp.controller('blogAppController', function($scope, $http, $window){
 			console.log('data published');
 		})
 		.then(function(){
-			$window.location.href = '#!/posts';
+			$window.location.href = '/';
 		});
 	}
 });
