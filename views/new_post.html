@@ -1,0 +1,12 @@
+<h2>New Post</h2>
+<form>
+  <div class="form-group">
+    <label for="email">Title:</label>
+    <input class="form-control" ng-model="post.title" autofocus>
+  </div>
+  <div class="form-group">
+    <label for="pwd">Post:</label>
+    <textarea class="form-control" ng-model="post.content" rows="5"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary" ng-click="postData(post)">Submit</button>
+</form>
